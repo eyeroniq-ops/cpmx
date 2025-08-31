@@ -1,249 +1,0 @@
-CPMX Ecosistema — Whitepaper Integral Fecha: 29 de agosto de 2025 Red: Polygon PoS Ticker: CPMX Supply total: 100,000,000 CPMX
-Mensaje central y alcance del protocolo Software no custodial, sin conversión a MXN, sin intermediación financiera. On/Off‑Ramp: está fuera del alcance del protocolo. Si un comercio o usuario usa un tercero para entrar o salir a fiat, ese tercero puede requerir KYC. El protocolo no lo hace ni lo ofrece. Pagos on‑chain: todas las referencias son a pagos on‑chain entre wallets compatibles. Costo 0.50% on‑chain. No se prometen conversiones bancarias a MXN.
-	1	¿Qué es CPMX? CPMX es un token de utilidad en Polygon PoS diseñado para pagos en comercios y transferencias P2P con gas abstraído para el usuario, bajo costo total para comercios y un modelo deflacionario por quema directa financiado por el uso real. La Wallet CPMX es una DApp en navegador que elimina fricción técnica. El protocolo no ofrece on/off‑ramp a MXN; terceros pueden integrarse fuera del alcance del protocolo.
-	2	Problemas y desafíos de la población mexicana
-2.1 Acceso y usabilidad (Wallet)
-Problema: la mayoría de las wallets requieren descargas, instalaciones o conocimientos avanzados. Solución (Wallet CPMX): funciona completamente en el navegador, sin instalación. Ideal para dispositivos de gama baja o con poco almacenamiento. Passkeys por defecto (PIN de 6 dígitos como respaldo), auto‑bloqueo y límites de intentos.
-2.2 Costos de pagos on‑chain (Wallet + Token)
-Problema: comisiones bancarias y de envíos tradicionales elevadas (≈ 5–7% en envíos tradicionales) y costos variables en cripto. Solución:
-● Operación en Polygon con fees mínimos. ● Tarifa única 0.50% en pagos a comercios (on‑chain): 0.20% a Fondo de Gas y
-0.30% a quema directa de CPMX cobrado como tarifa. ● Diseñado para micropagos y envíos on‑chain entre wallets compatibles;
-transferencias casi instantáneas y de bajo costo.
-2.3 Inclusión financiera (Wallet)
-Problema: ~30–32% de adultos en México sin cuenta bancaria. Solución:
-● No requiere cuenta bancaria. ● Acceso desde cualquier dispositivo con internet. ● Onboarding simple con passkey/PIN y libreta de direcciones.
-2.4 Interfaz y localización (Wallet)
-Problema: muchas wallets están orientadas a mercados anglosajones y son complejas. Solución: interfaz y guías en español, UX tipo banca móvil local y pagos por QR (paradigma familiar como CoDi).
-2.5 Seguridad y confianza (Wallet + Gobernanza)
-Problema: miedo a perder fondos, hackeos y opacidad operativa. Solución:
-● Claves privadas sólo en el dispositivo; cifrado local; passkeys; auto‑bloqueo a 60 s; intentos limitados; wipe localtras X intentos fallidos.
-● Multisig 3/5, y dashboard público con GMV, runway de gas y quemas on‑chain.
-2.6 Envíos on‑chain más eficientes (Wallet)
-Problema: tiempos y costos altos en sistemas tradicionales. Solución: transferencias on‑chain casi instantáneas, historial transparente y libreta de contactos frecuente.
-2.7 Mitigación de volatilidad con swap opcional a stablecoins (Token + Tesorería)
-Problema: inflación y devaluación recurrentes; instrumentos de ahorro con bajo rendimiento real. Solución (Token CPMX):
-● Deflación por uso real: el 0.30% del GMV cobrado se quema on‑chain, reduciendo el supply circulante conforme crece el ecosistema.
-● Swap opcional a stablecoins (USDC) vía DEX no custodial dentro de la wallet. La conversión a MXN bancario es externa al protocolo y fuera del alcance.
-2.8 Complejidad del gas (Wallet + Fondo de Gas)
-Problema: conceptos como gas, gwei y gas limit generan fricción y miedo a “costos ocultos”. Solución:
-● Abstracción total del gas para pagos en comercio. ● Fondo de Gas financiado con 0.20% de cada pago. ● P2P con cupos diarios sólo si hay excedente sobre el colchón ≥ 12 semanas. ● Indicadores de estado simples: “Cuenta activa/inactiva” y “P2P con/sin cupo”.
-2.9 Liquidez, swaps y salida a MXN por terceros (Token + Integraciones)
-Problema: proyectos pequeños dependen de CEX; comercios necesitan salida a MXN. Solución:
-● DEX inicial (CPMX/USDC) con 5% del supply y 15% en reserva para profundidad. ● Swap on‑chain a stablecoins dentro de la misma UX, sin KYC. ● La salida a MXN bancario es externa al protocolo y responsabilidad de terceros.
-2.10 Regulación y cumplimiento (Legal + Operación)
-Problema: riesgo regulatorio por tokens sin utilidad y cumplimiento difuso. Solución:
-● Token de utilidad para pagos; no promete rendimientos ni otorga derechos patrimoniales.
-● El protocolo no solicita KYC/AML. Terceros que ofrezcan on/off‑ramp pueden requerirlo conforme a su política.
-2.11 Lealtad abierta e interoperable (Token)
-Problema: puntos centralizados con poca utilidad y lock‑in. Solución: descuentos opcionales por comercio y programas de fidelidad interoperables basados en CPMX.
-PARTE I · Wallet CPMX Wallet CPMX: reduciendo barreras para la adopción de criptomonedas en México
-La wallet CPMX sobre Polygon resuelve fricciones concretas que enfrentan los mexicanos al adoptar cripto, comparada con alternativas tradicionales y wallets descentralizadas.
-Problemas que resuelve para la población mexicana
-Accesibilidad sin complicaciones técnicas Problema actual: la mayoría de las wallets requieren descargas, instalaciones o conocimientos avanzados. Solución CPMX: funciona completamente en el navegador, sin instalación. Es ideal para dispositivos de gama baja o con poco almacenamiento. Passkeys por defecto, PIN de respaldo.
-Reducción significativa de costos Problema actual: comisiones bancarias y de envíos tradicionales elevadas (≈ 5–7% en sistemas tradicionales). Solución CPMX:
-● Opera en Polygon con fees mínimos. ● Elimina intermediarios financieros tradicionales. ● Diseñada para micropagos y envíos on‑chain.
-Inclusión financiera para no bancarizados Problema actual: ~32% de adultos en México no tiene servicios bancarios. Solución CPMX:
-● No requiere cuenta bancaria. ● Acceso con cualquier dispositivo conectado a internet. ● Autenticación simple con passkey/PIN.
-Interfaz adaptada al contexto mexicano Problema actual: muchas wallets se diseñan para mercados anglosajones. Solución CPMX:
-● Interfaz y documentación en español. ● Diseño intuitivo, similar a apps bancarias mexicanas. ● Pagos por QR (tecnología familiar, ej. CoDi).
-Seguridad sin complicaciones Problema actual: miedo a perder fondos o ser hackeado. Solución CPMX:
-● Las claves privadas nunca abandonan el dispositivo. ● Cifrado robusto; rate‑limit y backoff exponencial; wipe local tras X intentos. ● Auto‑bloqueo tras 60 segundos de inactividad.
-Envíos on‑chain más eficientes Problema actual: comisiones altas, procesos lentos. Solución CPMX:
-● Transferencias casi instantáneas con costos bajos. ● Libreta de direcciones para contactos frecuentes. ● Historial transparente de transacciones.
-Independencia de la volatilidad económica Problema actual: inflación y devaluación frecuente del peso. Solución CPMX:
-● Alternativa de pagos y valor en activos digitales. ● Diversificación fuera del peso mexicano. ● Control total sin depender de instituciones.
-Simplificación del concepto de “gas” Problema actual: gas, gwei y gas limit generan confusión. Solución CPMX:
-● El usuario no ve “gas”, “gwei” ni “gas limit” en pagos a comercio. ● Indicador simple: “Cuenta activa” o “inactiva”. ● P2P con gas subsidiado sólo si hay cupo.
-Comparativa con otras wallets
-Característica Wallets tradicionales
-Otras wallets descentralizadas
-CPMX
-Facilidad de uso Media‑baja Baja Alta
-Costos de transacción
-Altos Variables Muy bajos
-Conocimientos técnicos
-Medio‑altos Altos Mínimos
-Verificación KYC Obligatoria Generalmente no No requerida por el protocolo
-Idioma Principalmente inglés
-Principalmente inglés Español
-Enfoque en usuario mexicano
-No No Sí
-Manejo del “gas” Visible y complejo
-Visible y técnico Invisible y simplificado
-Nota: Terceros que ofrezcan entrada/salida a fiat pueden requerir verificación propia.
-Conclusión La wallet CPMX reduce barreras que frenan la adopción masiva en México con simplicidad, costos bajos, seguridad accesible y diseño contextual.
-PARTE II · Token CPMX
-	1	Resumen ejecutivo CPMX es un token de utilidad para pagos en comercios y transferencias P2P sin gas (bajo cupo), con bajo costo total para comercios y deflación por quema directa ligada al uso real. Tarifa al comercio (0.50% on‑chain):
-● 0.20% → Fondo de Gas (el usuario no ve gas en comercios). ● 0.30% → quema directa de CPMX cobrado como tarifa en cada pago.
-P2P: gas subsidiado con cuota diaria por usuario cuando el Fondo de Gas tiene excedente. Si no hay cupo, la wallet muestra “Cuenta inactiva hoy (P2P sin cupo)”.
-Listado inicial: pool DEX con 5% del supply + USDC equivalente. LP bloqueado 18 meses.
-	1	Problema y oportunidad Los comercios pequeños requieren bajo costo total y cero complejidad técnica. Los usuarios quieren pagar desde el móvil sin gas visible ni comisiones ocultas. CPMX resuelve ambas fricciones con un modelo simple, transparente y auditable on‑chain, enfocado en México y extensible a LatAm.
-Problemas adicionales que resuelve CPMX (impacto estratégico)
-● Fragmentación de pagos en LatAm: QR + wallet, costo total 0.50% on‑chain; swap a USDC opcional.
-● Exclusión financiera: wallet con passkey/PIN; P2P on‑chain con cupos. ● Sostenibilidad del gas: fondo autofinanciado (0.20%); P2P sólo con excedentes. ● Transparencia: dashboard público (GMV, quema, runway). ● Lealtad abierta: descuentos opcionales interoperables.
-● Riesgo regulatorio: utilidad clara de pagos; protocolo sin KYC.
-	2	Propuesta de valor ● Usuarios: pagos sin gas en comercios; P2P con gas subsidiado bajo cupo. ● Comercios: 0.50% on‑chain con gas incluido; panel claro; swap on‑chain a
-stablecoins. ● Ecosistema: deflación ligada a uso real y operación transparente.
-	3	Arquitectura funcional (alto nivel) ● Token CPMX (ERC‑20): inmutable, sin transfer tax, sin emisión futura. ● Contratos periféricos: pagos con meta‑tx (distribuyen 0.50%); Fondo de Gas;
-módulo de quema directa. ● Relayer: patrocina gas en pagos a comercios y P2P con cupo. ● Dashboard público: métricas y parámetros en tiempo real.
-3.1 Pricing en punto de venta
-● Denominación del ticket: MXN de referencia, liquidado en CPMX. ● Cálculo de CPMX a pagar: mediana/TWAP on‑chain de CPMX/USDC y un
-USDC/MXN de referenciapúblico. Llamarlo “precio de referencia” e informar slippage.
-● El protocolo no convierte a MXN. Si el comercio quiere USDC, integrar swap on‑chain no custodial en la misma UX.
-Oráculos y fallback operativos
-● El POS usa TWAP 30 min de CPMX/USDC; para USDC/MXN se usa mediana de N fuentes.
-● Si la desviación inter‑fuentes > 2%, se pausa el POS por 5 min y no se procesa el cobro hasta recuperar coherencia.
-	4	Utilidad y casos de uso ● Pagos en comercios: colegiaturas, talleres, bienes y servicios. ● P2P: microtransferencias con gas cubierto bajo cupo. ● Fidelidad: descuentos opcionales por comercio. ● Pases/vales: cupones digitales emitidos por el comercio.
-	5	Tokenomics
-5.1 Identidad
-● Nombre/Ticker: Crypto Peso Mexicano (CPMX)
-● Red: Polygon PoS ● Decimales: 18 ● Supply total fijo: 100,000,000 CPMX ● Transfer tax: 0% ● Emisiones futuras: 0
-5.2 Distribución del supply
-Destino Tokens Vesting / Notas
-Comunidad y usuarios 20,000,00 0
-Caps/KPIs y antisybil
-Tesorería del proyecto 37,000,00 0
-Operación, gas, seguridad, grants de integración y auditorías (prohibido comprar CPMX en mercado)
-Liquidez total (5% pool inicial + 15% reserva)
-20,000,00 0
-5% al pool inicial; 15% en reserva
-Comercios aliados (B2B)
-10,000,00 0
-Cliff 3 meses + vesting 12 meses, entrega mensual pro‑rata contra KPIs
-Equipo 10,000,00 0
-Cliff 12m + vesting 36m
-Soporte temprano / asesores
-3,000,000 Cliff 6m + vesting 18m
-5.3 Mecánica económica (pagos a comercios)
-Mecánica económica (pagos a comercios)
-● Tarifa única: 0.50% del monto cobrado. ○ 0.20% → Fondo de Gas. ○ 0.30% → quema directa de CPMX cobrado como tarifa.
-Ejemplo (100 CPMX): el usuario envía 100; el comercio recibe 99.50; 0.20 va a gas; 0.30 se quema.
-5.4 P2P con gas subsidiado
-● Colchón mínimo: runway ≥ 12 semanas para pagos a comercios. ● Excedente a P2P: sólo el sobrante sobre el colchón subsidia P2P. ● Cuota diaria por usuario (según runway):
-○ 12–<16 semanas: 1 envío/día, tope $150 MXN. ○ 16–<20 semanas: 2 envíos/día, tope $200 MXN. ○ 20–<24 semanas: 3 envíos/día, tope $250 MXN. ○ ≥24 semanas: 5 envíos/día, tope $300 MXN.
-● Sin cupo: la wallet muestra “Cuenta inactiva hoy (P2P sin cupo)” y bloquea el envío. ● P2P: sin fee; sólo gas cubierto si hay cupo. ● Conversión de topes P2P: “Los topes expresados en MXN se convierten a CPMX
-usando el precio de referencia de la Sección 3.1 con tolerancia ±1% y edad ≤ 10 min.”
-● Expiración de firma/precio: “Si la firma expira (>10 min) o el precio se desvía >1% al ejecutar, la tx se rechaza y la app recalcula.”
-5.5 Deflación (quema directa)
-El 0.30% del GMV cobrado se quema en el mismo bloque. La escasez crece con el uso real, sin compras en mercado ni impuestos por transferencia.
-	6	Listado inicial y/o venta permissionless (sin KYC) ● Opción A — Listado directo en DEX: pool inicial con 5% del supply + contraparte
-en USDC. Precio fijado por el mercado. Sin whitelist, sin formularios, sin KYC. ● Opción B — LBP/Subasta abierta on‑chain: acceso permissionless sin registro. ● Compradores: no se aplican esquemas de desbloqueo individuales. ● Equipo/asesores: vesting on‑chain y verificable. ● Límites por wallet: si se usan, son reglas del contrato, no identidad. ● KYC/AML: fuera del protocolo; si un tercero on/off‑ramp lo exige, aplica su política.
-Precio de referencia: se comunica en MXN como referencia informativa, liquidando en CPMX según pricing del punto 3.1.
-	7	Liquidez y mercados ● DEX inicial: par CPMX/USDC (Polygon). ● Depósito inicial del pool: 5% del supply = 5,000,000 CPMX + USDC equivalente al
-precio de referencia de arranque. ● Reserva de liquidez: 15% del supply para profundizar el pool post‑listado. ● LP bloqueados: 18 meses (plazo exacto). Locker por defecto: Team Finance;
-fallback Unicrypt. Al listar, se publicará dirección del LP y tx del lock en el dashboard.
-● Operación de mercado: sin buybacks; la deflación proviene exclusivamente de la quema directa 0.30%.
-	8	Tesorería y política financiera Tesorería bajo multisig 3/5 con límites diarios y timelock. Usos permitidos: gas, seguridad, grants de integración, auditorías, observabilidad. Prohibido explícitamente comprar CPMX en mercado. Reportes mensuales públicos.
-	9	Gobernanza y transparencia ● Multisig 3/5: fundador, comercio ancla, inversor, 2 independientes. ● Parámetros gobernables: reparto del 0.50% (dentro de rangos), niveles/caps P2P,
-límites del Paymaster/relayer, parámetros de pricing de referencia. ● Rangos duros en contrato: tarifa total 0.30–0.80%; split 0.10–0.40% Gas y
-0.20–0.60% Burn. ● Timelock on‑chain: ≥ 7 días para cualquier cambio de tarifas o cupos. ● Límite de cambio por propuesta: ±0.10% en fee_total y ±0.05% en cada split. ● Dashboard público: transacciones, GMV, runway del fondo de gas, quemas, salud
-del relayer, wallets y parámetros.
-	10	Seguridad Librerías probadas, pruebas automatizadas, auditoría externa de contratos periféricos antes de mainnet, circuit‑breakerspor fallo de oráculos o picos de gas, límites por comercio/usuario y monitoreo continuo.
-Almacenamiento y recuperación de claves
-● Las claves se guardan cifradas con WebCrypto en el dispositivo. ● Passkeys son el factor primario; el PIN funciona como respaldo offline. ● Backups cifrados opcionales con frase de recuperación y exportación segura. ● En la ruta ERC‑4337, la recuperación social es opcional mediante guardianes.
-10.1 Controles sin KYC (anti‑abuso y cupos P2P)
-● Cupos por wallet + enfriamientos por patrón sospechoso. ● Enfriamiento operativo: 24–72 h (por defecto 48 h). ● Cap global por día del Fondo de Gas a nivel contrato. ● Device binding suave: huella de dispositivo y límite por combinación
-wallet‑dispositivo. ● Depósito simbólico reembolsable: 50 CPMX para activar cupos altos tras 14 días
-de buen uso. ● Listas de riesgo on‑chain mínimas: si una wallet recibe múltiples flags, baja su
-cupo. ● Nada de esto es “KYC”; son controles de abuso con caducidad documentada.
-	11	Cumplimiento (MX) y legal ● Naturaleza: token de utilidad para pagos; no otorga derechos patrimoniales ni
-promete rendimientos a minoristas. ● KYC/AML: no requerido por el protocolo. Si un tercero on/off‑ramp lo exige, aplica
-su propia política. ● Fiscal: facturación a cargo del comercio. ● Aviso legal: no es oferta de valores ni asesoría financiera/legal; cumplir regulación
-aplicable.
-	12	Ruta de producto y operaciones ● Fase 1 (0–6 semanas): pagos, relayer, Fondo de Gas, dashboard, pool
-CPMX/USDC (5% supply) y primera quema. ● Fase 2 (2–3 meses): +2 comercios, swap a stablecoins en la wallet, campañas con
-caps/KPIs. ● Fase 3 (4–6 meses): 5 comercios, ≥ 1,000 pagos/mes, ajuste de cupos P2P según
-salud del fondo.
-	13	KPIs de éxito ● Mes 1: ≥ 100 pagos; runway gas ≥ 12 semanas; dashboard en línea. ● 90 días: ≥ 300 pagos; 2 comercios; 500 wallets con tx. ● 6 meses: 5 comercios; ≥ 1,000 pagos/mes; retención ≥ 60%; quema mensual
-creciente.
-	14	Comunidad (20%) — lineamientos Usos: boosts por comercio (4–6 semanas), referidos con uso real, vouchers/becas, bounties de contenido e integraciones. Desembolsos por KPI, verificación ligera y caps por wallet/campaña.
-	15	Riesgos y mitigación
-Riesgo Mitigación
-Picos de gas/congestión
-Colchón ≥ 12 semanas; ajuste dinámico; pausas de contingencia
-Baja adopción Promos por comercio; campañas con caps; referidos con prueba de uso
-Volatilidad Swap opcional a stablecoins; pricing de referencia con límites de desviación
-Dump oportunista Vesting de equipo/asesores; transparencia de distribuciones; límites en programas
-Regulatorio Utility claro; protocolo sin KYC; asesoría local
-Operativo/segurida d
-Auditorías; multisig; timelock; límites y monitoreo
-	16	Glosario ● GMV: volumen bruto procesado. ● Runway de gas: semanas cubiertas para pagos a comercios. ● TWAP/mediana de precio: referencias de precio on‑chain para cálculo de CPMX en
-punto de venta; no se usan para compras en mercado. ● Cupo P2P: envíos diarios subsidiados por usuario según salud del fondo.
-	17	Parámetros por defecto ● Tarifa comercio: 0.50% → 0.20 gas / 0.30 quema. ● Colchón de gas: ≥ 12 semanas. ● Cuotas P2P: 1–5 envíos/día según runway; topes $150–$300 MXN; tope mensual
-sugerido $5,000 MXN. ● Pool inicial: 5% del supply + USDC a precio de referencia. ● Listado: DEX permissionless; sin buybacks.
-17 bis. Parámetros y fórmulas publicables ● Runway del Fondo de Gas:
-undefined con Costo_promedio_gas_por_pago = gasUsed × gasPrice × px(POL/MXN) y tabla de sensibilidad para tickets de 100, 300 y 1,000 MXN.
-Sensibilidad de costos de gas (bajo/medio/alto)
-Costo gas por pago (MXN) 0.05 0.08 0.15
-Ticket 100 (Ingreso Gas 0.20) Margen 0.15
-Margen 0.12
-Margen 0.05
-Ticket 300 (Ingreso Gas 0.60) Margen 0.55
-Margen 0.52
-Margen 0.45
-Ticket 1,000 (Ingreso Gas 2.00)
-Margen 1.95
-Margen 1.92
-Margen 1.85
-Regla operativa: el 0.20% actúa como buffer. Si el Margen GasFund < 25% del ingreso de Gas por pago, gobernanza reduce cupos P2P hasta recuperar margen.
-● Fórmulas por transacción (pagos a comercio) La quema se ejecuta en vivo en cada pago a comercio dentro del contrato de pagos, sin impuestos por transferencia en el token. Sea A_CPMX el monto bruto del pago en CPMX: • Fee total: fee_total = 0.005 × A_CPMX • Quema: burn = 0.003 × A_CPMX • Fondo de gas: gasfund = 0.002 × A_CPMX • Neto al comercio: A_neto = A_CPMX − fee_total Unidades: CPMX en todas las variables. Para reporteo en valor, puede usarse un precio de referencia P = MXN/CPMX documentado en la Sección 3.1.
-● Deflación esperada (agregada mensual) Burn_mensual_CPMX = 0.003 × GMV_mensual_en_CPMX Donde GMV_mensual_en_CPMX es la suma de A_CPMX de todos los pagos a comercios liquidados on‑chain durante el mes. Equivalente para reportes en MXN (opcional): Burn_mensual_MXN = 0.003 × GMV_mensual_en_MXN, con GMV_mensual_en_MXN = Σ A_CPMX × P_t usando el precio de referencia por transacción o un TWAP diario, según lo indicado en la Sección 3.1. Nota: estas expresiones son de reporte. La quema ocurre per‑tx y es auditable on‑chain en tiempo real.
-	18	Ejemplo numérico (100 CPMX) ● Pago a comercio: usuario envía 100 → comercio recibe 99.50; 0.20 a Fondo de
-Gas; 0.30 se quema. ● P2P (con cupo): emisor envía 100 → receptor recibe 100; gas cubierto; cuenta
-contra su cuota. ● P2P (sin cupo): “Cuenta inactiva hoy (P2P sin cupo)”; envío bloqueado.
-	19	Contacto y actualizaciones Sitio y dashboard se publicarán con direcciones on‑chain y parámetros vigentes. Cambios al whitepaper se versionarán con historial público. Aviso final: participar implica riesgos tecnológicos, operativos y de mercado. No constituye asesoría ni oferta de valores.
-ANEXO · MVP externo (fuera del protocolo): CPMX — Fiat On‑Ramp MXN (Bitso Polling) Fecha: 30 de agosto de 2025 Ámbito: flujo de terceros para comprar CPMX con MXN usando cuenta personal de Bitso + n8n (polling). Estado: MVP operativo (≈ 80% automatizado).
-Importante: Este flujo es externo al protocolo. Puede requerir KYC del tercero (Bitso/PSP). El protocolo CPMX no ofrece on/off‑ramp ni solicita KYC.
-	1	Resumen ejecutivo Define un flujo donde un cliente paga por SPEI y recibe CPMX on‑chain desde Tesorería mediante un contrato distributor. Objetivo: permitir que un cliente pague en MXN y reciba CPMX automáticamente sin webhooks bancarios. Automatización: ~80% (latencia típica ≤ 60 s). Seguridad: keys mínimas, IP allowlist, caps diarios, pausa. Cumplimiento: conciliación diaria.
-	2	Requisitos (organizacionales, técnicos, seguridad y secretos)
-● Política de uso del fiat entrante; runbook de atención. ● Raspberry Pi/VPS, n8n, cp‑distributor, Cloudflare Tunnel, Safe 3/5, contrato
-Distributor, Bitso API (lectura), almacenamiento (Sheets/Postgres). ● 2FA, rotación de API keys, allowlist, variables sensibles cifradas, separación de
-claves.
-	2	Arquitectura y componentes Frontend de compra → n8n (orden/polling/entrega/notificaciones/conciliación) → Bitso API (depósitos SPEI) → cp‑distributor → contrato distributor → ledger de órdenes.
-	3	Flujo end‑to‑end Checkout → crear orden con firma de centavos → SPEI exacto → polling 60 s → match → cálculo de entrega (fijo en fase inicial; luego precio de mercado) → distribución on‑chain → confirmación → conciliación.
-	4	Workflows de n8n Checkout SPEI, Polling Bitso, Entrega On‑Chain, Notificaciones, Conciliación Diaria, Alertas.
-	5	Matching y antifraude Firma de centavos, ventana 90 min, idempotencia, reglas de riesgo y revisión manual.
-	6	Cálculo de CPMX
-● Fase fija: CPMX = MXN / 1.00.
-● Post‑listado: MXN→USDC de referencia; cotizar CPMX (slippage ≤ 1%); si falla, reintentar o revisión manual.
-	7	Asignación del fiat recibido Sugerida: 40% liquidez / 25% gas / 20% operación / 15% reserva. La deflación 0.30% proviene del GMV de pagos a comercios, no de estas ventas.
-8–13. Seguridad, Cumplimiento, Observabilidad, Pruebas, Roadmap a Webhooks/STP, Anexos Mantener controles de acceso, conciliación, métricas T1, sandbox/UAT/carga, migración futura a webhooks/STP, variables de entorno, esquema de órdenes, API /distribute y mensajes UX.
-ANEXO · Implementación futura de compatibilidad opcional con ERC‑4337 (Account Abstraction) Objetivo Habilitar, de forma opcional y sin migraciones obligatorias, cuentas inteligentes compatibles con ERC‑4337 para quienes deseen funciones avanzadas (recuperación social, límites de gasto, llaves de sesión, batch), manteniendo intactos los flujos actuales con EIP‑2771 (meta‑tx) para usuarios EOA existentes.
-Principio de compatibilidad
-● Doble stack permanente: EIP‑2771 (relayer propio) y ERC‑4337 (bundler + paymaster) conviven sobre el mismo PaymentsContract.
-● Sin ruptura de direcciones: cada usuario conserva su EOA; quien active “Cuenta inteligente” obtiene además una Smart Account.
-● Ruteo por alias: un PaymentRouter resuelve la dirección activa del usuario o comercio (EOA o Smart Account) sin cambiar QR, links ni libretas.
-Arquitectura propuesta (alto nivel)
-● Token CPMX (ERC‑20): inmutable, sin transfer tax. ● PaymentsContract: aplica 0.50% y distribuye: 0.20% Fondo de Gas, 0.30% Burn. ● GasFund: lleva el runway y financia relayer (2771) y/o paymaster (4337). ● PaymentRouter: mapea accountId → {active_address, eoa, smart_account} y
-enruta pagos/abonos. ● SmartAccountFactory: despliegue determinista; owner inicial EOA/passkey. ● Paymaster (4337): patrocina gas para userOps que invoquen el PaymentsContract
-y cumplan políticas de runway y cupos. ● Bundler: operado por CPMX con redundancia y fallback externo.
-Flujos
-● Pago en comercio (2771 o 4337): el usuario firma; relayer o paymaster cubre gas; el PaymentsContract reparte 0.50% y liquida al comercio.
-● P2P con cupo: sólo si el runway ≥ colchón; Paymaster/relayer autoriza según límites diarios. Si no hay cupo, “Cuenta inactiva hoy (P2P sin cupo)”.
-Módulos nuevos o ajustados
-● PaymentRouter (nuevo) ● SmartAccountFactory (nuevo) ● Paymaster (nuevo) ● PaymentsContract (ajustes mínimos): hooks para distinguir 2771 vs 4337;
-eventos para GMV y Burn. ● GasFund (ajustes mínimos): expone runwayWeeks, capsByTier y
-excedenteDisponible.
-Políticas del Paymaster (on‑chain y gobernables)
-● Colchón mínimo de gas: si runwayWeeks < 12, no se patrocina P2P; sólo pagos a comercio.
-● Cupos P2P por runway (tiers 12–24+ semanas). ● Antiabuso: verificación ligera; tope mensual sugerido $5,000 MXN; detección de
-farming; bloqueo temporal por patrones anómalos. ● Circuit‑breakers: pausa ante picos de gas, fallo de oráculo o caída del bundler;
-fallback automático a 2771.
-UX y onboarding
-● Botón “Activar cuenta inteligente”. ● Indicador de estado único: “Cuenta activa/inactiva” y “P2P con/sin cupo”. ● Llaves de sesión opcionales para POS. ● Recuperación social opcional.
-Operación e infraestructura
-● Bundlers redundantes; oráculos de precio POL/USDC y CPMX/USDC para pricing
-de referencia; métricas de userOps; proyección de runway.
-Gobernanza y parámetros
-● Multisig 3/5 + timelock ≥ 7 días. ● Parámetros: caps P2P por tier; colchón mínimo; límites de patrocinio; slippage de
-pricing de referencia. ● Eventos públicos para el dashboard.
-Seguridad Auditoría externa específica para Paymaster, Router y ajustes del PaymentsContract; fuzzing de límites; caos de bundler; escenarios de mempool congestionado; kill‑switch del Paymaster que no afecta 2771 ni la recepción de fondos.
-Plan de despliegue por fases
-● Fase 0: laboratorio interno (testnet). ● Fase 1: piloto controlado (testnet). ● Fase 2: cancha real acotada (mainnet) opt‑in. ● Fase 3: apertura opcional para todos.
-KPIs de éxito (4337)
-● ≥ 95% de userOps patrocinadas incluidas en < N bloques. ● < 1% de rechazos por falsos negativos. ● 0 incidentes de gasto fuera de política; 0 pérdidas por guardian recovery. ● Consumo de gas del Paymaster dentro del 0.20% a 30/60/90 días. ● Adopción opt‑in por cohorte.
-Riesgos y mitigación
-● Picos de gas/congestión: caps dinámicos; pausa; fallback a 2771. ● Bugs en Paymaster/Router: auditoría; canarios; límites duros por tx y por día. ● Complejidad operativa: runbook 24/7; rotación de llaves; doble proveedor de
-bundlers. ● Experiencia fragmentada: Router y UI unifican la “dirección activa”.
-Impacto económico y de producto Sin cambios al modelo económico central: la tarifa 0.50% mantiene 0.20% gas / 0.30% burn directo. El Fondo de Gas puede financiar relayer (2771) o paymaster (4337). P2P sigue subordinado al excedente sobre el colchón.
-Resumen de la implementación Se añade ERC‑4337 como opción sobre la infraestructura actual. Compatibilidad total para usuarios con EOA existentes. Reglas de patrocinio centralizadas y observables. El Router hace transparente si se usa EOA o Smart Account.
